@@ -11,12 +11,11 @@ namespace Project1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello!");
-            Console.WriteLine("Desila se izmena!");
-            Console.WriteLine("Izmena 2");
-            Console.WriteLine("Unesi svoje ime:");
-            string ime = Console.ReadLine();
-            Console.WriteLine("Hello {0} ! ", ime);
-            Console.WriteLine("Izmena3");
+            Console.WriteLine("Change 1!");
+            Console.WriteLine("Tell me you name:");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello {0} ! ", name);
+            Console.WriteLine("Change 2");
             
         }
     }
