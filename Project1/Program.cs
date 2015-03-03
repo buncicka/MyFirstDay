@@ -12,6 +12,8 @@ namespace Project1
         {
             Console.WriteLine("Hello!");
             Console.WriteLine("Desila se izmena!");
+            Console.WriteLine("Izmena 2");
+            
         }
     }
 }
