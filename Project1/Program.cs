@@ -10,6 +10,8 @@ namespace Project1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello!");
+            Console.WriteLine("Desila se izmena!");
         }
     }
 }
