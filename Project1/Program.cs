@@ -12,10 +12,9 @@ namespace Project1
         {
             Console.WriteLine("Hello!");
             Console.WriteLine("Change 1!");
-            Console.WriteLine("Tell me you name:");
+            Console.WriteLine("Tell you name:");
             string name = Console.ReadLine();
             Console.WriteLine("Hello {0} ! ", name);
-            Console.WriteLine("Change 2");
             
         }
     }
