@@ -11,11 +11,9 @@ namespace Project1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello!");
-            Console.WriteLine("Change 1!");
-            Console.WriteLine("Tell you name:");
+            Console.WriteLine("Tell me your name:");
             string name = Console.ReadLine();
-            Console.WriteLine("Hello {0} ! ", name);
-            
+            Console.WriteLine("Hello {0} ! ", name);      
         }
     }
 }
