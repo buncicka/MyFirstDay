@@ -13,6 +13,10 @@ namespace Project1
             Console.WriteLine("Hello!");
             Console.WriteLine("Desila se izmena!");
             Console.WriteLine("Izmena 2");
+            Console.WriteLine("Unesi svoje ime:");
+            string ime = Console.ReadLine();
+            Console.WriteLine("Hello {0} ! ", ime);
+            Console.WriteLine("Izmena3");
             
         }
     }
