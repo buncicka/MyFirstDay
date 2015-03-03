@@ -13,7 +13,10 @@ namespace Project1
             Console.WriteLine("Hello!");
             Console.WriteLine("Tell me your name:");
             string name = Console.ReadLine();
-            Console.WriteLine("Hello {0} ! ", name);      
+            Console.WriteLine("Hello {0} ! ", name);
+            int count;
+            count = name.Length;
+            Console.WriteLine("Tvoje ime ima {0} slova", count);
         }
     }
 }
